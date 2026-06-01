@@ -2,9 +2,9 @@
 
 namespace codearachnid\FilamentSuperAdmin\Tests;
 
+use codearachnid\FilamentSuperAdmin\FilamentSuperAdminServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use codearachnid\FilamentSuperAdmin\FilamentSuperAdminServiceProvider;
 
 class TestCase extends Orchestra
 {

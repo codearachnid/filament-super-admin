@@ -2,9 +2,9 @@
 
 namespace codearachnid\FilamentSuperAdmin;
 
+use codearachnid\FilamentSuperAdmin\Commands\FilamentSuperAdminCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use codearachnid\FilamentSuperAdmin\Commands\FilamentSuperAdminCommand;
 
 class FilamentSuperAdminServiceProvider extends PackageServiceProvider
 {
