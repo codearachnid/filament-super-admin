@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace codearachnid\FilamentSuperAdmin;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use codearachnid\FilamentSuperAdmin\Commands\FilamentSuperAdminCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class FilamentSuperAdminServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('filament-super-admin')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_filament_super_admin_table')
+            ->hasCommand(FilamentSuperAdminCommand::class);
     }
 }

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "alwayscurious/filament-super-admin",
+    "description": "Create a super admin for your project",
     "keywords": [
-        ":vendor_name",
+        "Always Curious",
         "laravel",
-        ":package_slug"
+        "filament-super-admin"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/alwayscurious/filament-super-admin",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Timothy Wood",
+            "email": "codearachnid@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "codearachnid\\FilamentSuperAdmin\\": "src/",
+            "codearachnid\\FilamentSuperAdmin\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "codearachnid\\FilamentSuperAdmin\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "codearachnid\\FilamentSuperAdmin\\FilamentSuperAdminServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentSuperAdmin": "codearachnid\\FilamentSuperAdmin\\Facades\\FilamentSuperAdmin"
             }
         }
     },
